@@ -48,8 +48,9 @@
     "components/ui/badge.jsx",
     "components/ui/alert-dialog.js",
     "components/ui/accordion.js",
-    "app/layout.jsx",
-    "app/page.jsx"
+    "app/layout.js",
+    "app/page.jsx",
+    "next.config.js"
   ],
   "exclude": [
     "node_modules"

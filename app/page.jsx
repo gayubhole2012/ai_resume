@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button"
+
+import Herosection from "@/components/hero";
 
 export default function Home() {
   return (
-    <div> ai resumebuilder
-      <br></br>
-      <Button>Click me</Button>
+    <div>
+      <div className="grid-background"></div>
+      <Herosection />
     </div>
   );
 }
