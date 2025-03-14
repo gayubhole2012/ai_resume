@@ -49,7 +49,7 @@
     "components/ui/alert-dialog.js",
     "components/ui/accordion.js",
     "app/layout.js",
-    "app/page.jsx",
+    "app/page.js",
     "next.config.js"
   ],
   "exclude": [
