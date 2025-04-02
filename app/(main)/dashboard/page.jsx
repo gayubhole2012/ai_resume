@@ -1,4 +1,4 @@
-import { getUserOnBoardingStatus } from "../../../actions/user";
+import { getUserOnBoardingStatus } from "@/actions/user";
 import { redirect } from "next/navigation";
 
 

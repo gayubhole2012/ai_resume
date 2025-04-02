@@ -76,7 +76,7 @@ model CoverLetter{
 }
 
 model IndustryInsight{
-    id            String    @id @default(cuid())
+    id          String    @id @default(cuid())
   industry      String    @unique  // The industry this data belongs to (e.g., "tech-software-development")
   
   // Users in this industry
@@ -104,13 +104,13 @@ model IndustryInsight{
 }
 
 enum DemandLevel {
-  High
-  MEDIUM 
   LOW
+  MEDIUM
+  HIGH
 }
 
 enum MarketOutlook{
-  POSITIVE 
-  NEUTRAL 
-  NEGATIVE 
+  POSITIVE
+  NEUTRAL
+  NEGATIVE
 }
